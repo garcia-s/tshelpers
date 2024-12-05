@@ -1,5 +1,4 @@
 
-
 /**
 * Helper function for async error handling
 *
@@ -38,4 +37,3 @@ export function pcallSync<T>(func: () => T): [true, T] | [false, any] {
         return [false, error]; // Catch any error
     }
 }
-

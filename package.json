@@ -1,25 +1,30 @@
 {
-  "name": "tshelpers",
-  "version": "1.0.0",
-  "description": "Helper functions and Data structures for nodejs",
-  "main": "/build/index.js",
-  "scripts": {
-    "test": "jest ."
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/garcia-s/tshelpers.git"
-  },
-  "keywords": [
-    "Datastructures",
-    "pcall",
-    "helpers",
-    "functions"
-  ],
-  "author": "Juan Garcia",
-  "license": "GPL-2.0-or-later",
-  "bugs": {
-    "url": "https://github.com/garcia-s/tshelpers/issues"
-  },
-  "homepage": "https://github.com/garcia-s/tshelpers#readme"
+    "name": "@garcia-s/tshelpers",
+    "version": "1.0.0",
+    "description": "Helper functions and Data structures for nodejs",
+    "main": "/build/index.js",
+    "scripts": {
+        "build": "tsc",
+        "test": "jest ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/garcia-s/tshelpers.git"
+    },
+    "keywords": [
+        "Datastructures",
+        "pcall",
+        "helpers",
+        "functions"
+    ],
+    "author": "Juan Garcia",
+    "license": "GPL-2.0-or-later",
+    "bugs": {
+        "url": "https://github.com/garcia-s/tshelpers/issues"
+    },
+    "homepage": "https://github.com/garcia-s/tshelpers#readme",
+    "devDependencies": {
+        "jest": "^29.7.0",
+        "typescript": "^5.7.2"
+    }
 }

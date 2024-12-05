@@ -3,7 +3,7 @@
         "target": "es2016",
         "module": "commonjs",
         "esModuleInterop": true,
-        "outDir": "./lib",
+        "outDir": "./build",
         "forceConsistentCasingInFileNames": true,
         "strict": true,
         "declaration": true,
