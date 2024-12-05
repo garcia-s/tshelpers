@@ -1,8 +1,11 @@
 {
     "name": "@garcia-s/tshelpers",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Helper functions and Data structures for nodejs",
-    "main": "/build/index.js",
+    "main": "build/index.js",
+    "files": [
+        "build/**"
+    ],
     "scripts": {
         "build": "tsc",
         "test": "jest ."
